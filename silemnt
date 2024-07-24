@@ -226,7 +226,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
     end
 end)
 
-if getgenv().Sync.Spin.Enabled == true then
+if getgenv().sync.Spin.Enabled == true then
     
     local Players = game:GetService("Players")
     local UserInputService = game:GetService("UserInputService")
@@ -271,7 +271,7 @@ if getgenv().Sync.Spin.Enabled == true then
 getgenv().Loaded = true -- end of the script
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Sync.cc",
+        Title = "bestar.cc",
         Text = "Updated Table",
         Duration = 0.001
     })
