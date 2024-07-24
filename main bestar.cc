@@ -1,4 +1,4 @@
-getgenv().bestar.cc = {
+getgenv().syncCC = {
     Aimbot = {
         Keybind = Enum.KeyCode.C,
         AimBot = 0.187,
