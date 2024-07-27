@@ -1,5 +1,5 @@
 local key = game.Players.LocalPlayer.Name
 if key == "phildez" or
    key == "CxlxbGotADraco" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/users"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/userids"))()
 end
