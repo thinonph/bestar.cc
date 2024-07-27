@@ -1,2 +1,5 @@
-phildez
-CxlxbGotADraco
+local key = game.Players.LocalPlayer.Name
+if key == "phildez" or
+   key == "example" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/users"))()
+endlocal key = game.Players.LocalPlayer.Name
