@@ -1,8 +1,4 @@
-local key = game.Players.LocalPlayer.Name
-if key == "phildez" or
-   key == "CxlxbGotADraco" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/userids"))()
-end
+
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
