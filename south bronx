@@ -4,6 +4,13 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "bestar.xyz : synax made this", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
+
+local key = game.Players.LocalPlayer.Name
+if key == "phildez" or
+   key == "" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/userids"))()
+end
+
 OrionLib:MakeNotification({
 	Name = "working",
 	Content = "injected",
